@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+
+</head>
+<body>
+        <div class="container">
+            <div class="item" id="crl">
+                <input type="text" id="txt">
+                <table>
+                    <tr>
+                        <td><button id="C" onclick=apagaCampo(this)>C</button></td>
+                        <td><button id="+" onclick=populaCampo(this)>+</button></td>
+                        <td><button id="-" onclick=populaCampo(this)>-</button></td>
+                        <td><button id="del" onclick=menosCampo(this)>←</button></td>
+                    </tr>
+                    </div>
+                    <tr>
+                        <td><button id="7" onclick=populaCampo(this)>7</button></td>
+                        <td><button id="8" onclick=populaCampo(this)>8</button></td>
+                        <td><button id="9" onclick=populaCampo(this)>9</button></td>
+                        <td><button id="x" onclick=populaCampo(this)>*</button></td>
+                    </tr>
+                    <tr>
+                        <td><button id="4" onclick=populaCampo(this)>4</button></td>
+                        <td><button id="5" onclick=populaCampo(this)>5</button></td>
+                        <td><button id="6" onclick=populaCampo(this)>6</button></td>
+                        <td><button id="divide" onclick=populaCampo(this)>/</button></td>
+                    </tr>
+                    <tr>
+                        <td><button id="1" onclick=populaCampo(this)>1</button></td>
+                        <td><button id="2" onclick=populaCampo(this)>2</button></td>
+                        <td><button id="3" onclick=populaCampo(this)>3</button></td>
+                        <td rowspan="2"><button id="calcular" onclick=calculo(this) style="height: 90px;">=</button> </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"> <button id="0" onclick=populaCampo(this) style="width: 100px;">0</button></td>
+                        <td><button id="." onclick=populaCampo(this)>.</button></td>
+                    </tr> 
+                </table>
+
+            </div>
+        </div>
+        <script src="../JS/index.js"></script>
+</body>
+</html>
