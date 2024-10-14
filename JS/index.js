@@ -23,3 +23,8 @@ function calculo(campo){        //realiza o calculo da input e mostra o resultad
     }
 
 }
+document.getElementById('txt').addEventListener('keydown', function(event) {
+    if (event.key === 'Enter') {  // Verifica a tecla que foi pressionada
+        calculo();  
+    }
+});
